@@ -1,0 +1,2 @@
+function saygoodbye() {
+alert('Goodbye!');}
