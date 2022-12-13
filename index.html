@@ -116,7 +116,51 @@
   <div id="txt1">
   <input type="button" value="テキストの変更" onclick="txtchange1();"> 　城西大学
  </div>
+ <h1>練習問題6.9 JavaScriptによるページの変更</h1>
+  <div id="txt1">
+  <input type="button" value="テキストの変更" onclick="txtchange1();"> 　城西大学
+ </div>
  
+ <h1>練習問題6.10JavaScriptによるページの変更</h1>
+ <input type="button" value="画像の変更" onclick="imgchange();">
+ <input type="button" value="元に戻す" onclick="imgchange1();">
+ <img src="./image/城西大学3.jpg" id="logo" alt="keiei" class="imagechange">
+ 
+ <h1>練習問題6.11タイマーイベントによる実行</h1>
+ <form name="timer"> 
+  <input type="button" value="スタート" onclick="startfnc()">
+  <br> 
+  <input type="text" name="moji" size="30" value=""> 
+ </form>
+ 
+ <h1>練習問題6.12タイマーイベントによる実行</h1>
+  <form>
+   <input type="button" value="Timer1" onclick="setTimeout('mes()',3000)">
+   </form>
+ 
+ <h1>練習問題6.13タイマーイベントによる実行</h1>
+ <form name="timer13"> 
+ <input type="button" value="スタート" onclick="hyoji13()">
+  <br> 
+  <input type="text" name="moji13" size="30" value=""> 
+  </form>
+  
+ 
+  <h1> 練習問題6.14　タイマーイベントによる実行</h1>
+   <form>
+   <input type="button" value="画像の変更" onclick="imgchange5();setTimeout('imgchange6()',3000)"> </form>
+   <img src='./image/城西大学２.jpg' id="logo1" alt="keiei" class="imagechnge7">
+  
+ 
+ <h1>練習問題7.1テキスト入力の練習</h1>
+  <input type="button" value="あいさつ" onclick="sayhello71();">
+ <p>誰？<input type="text" id="who71"></p>
+ 
+ <h1>練習問題7.3足し算</h1>
+ <p>
+  <input type="text" id="input1">+<input type="text" id="input2">
+  <input type="button" value="計算" onclick="add();">
+ </p>
  
  </body>
 </html>
